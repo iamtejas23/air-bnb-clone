@@ -13,14 +13,14 @@ const Future = () => {
         <div className={styles.Futurecon}>
        <h3>Inspiration for future getaways</h3>
          <div className={styles.future}>
-            <a href="">Popular</a>
-            <a href="">Arts & culture</a>
-            <a href="">Outdoors</a>
-            <a href="">Mountains</a>
-            <a href="">Beach</a>
-            <a href="">Unique stays</a>
-            <a href="">Categories</a>
-            <a href="">Things to do</a>
+            <a href="#">Popular</a>
+            <a href="#">Arts & culture</a>
+            <a href="#">Outdoors</a>
+            <a href="#">Mountains</a>
+            <a href="#">Beach</a>
+            <a href="#">Unique stays</a>
+            <a href="#">Categories</a>
+            <a href="#">Things to do</a>
             </div>
             <hr className={styles.hr} />
 

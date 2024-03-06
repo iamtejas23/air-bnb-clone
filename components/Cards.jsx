@@ -144,7 +144,7 @@ const Cards = () => {
     <div className={styles.moresection}>
         <h2>Continue exploring Countryside</h2>
         <div className={styles.show}>
-            <a href="#">Show more</a>
+            <a href="/home">Show more</a>
         </div>
     </div>
     </div>
