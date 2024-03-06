@@ -1,0 +1,60 @@
+.containerapp{
+    margin: 0rem 3rem 2rem 4rem  ;
+    display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  grid-gap: 20px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    /* border: 1px solid #ccc; */
+    border: none;
+    border-radius: 20px;
+    overflow: hidden;
+    cursor: pointer;
+  }
+  
+  .image {
+    width: 100%;
+    height: 200px;
+    /* object-fit: cover; */
+  }
+  
+  .details {
+    padding: 10px;
+  }
+  
+  .price {
+    font-weight: bold;
+  }
+  
+  .moresection{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 900;
+    align-items: center;
+    /* gap: 1rem; */
+    flex-direction: column;
+  }
+  
+.show{
+    /* button */
+    padding: 10px 30px;
+    border: 1px solid #cacacaa5;
+    background-color: black;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    gap: 0.5rem;
+    margin-bottom: 2rem;
+}
+
+.moresection a{
+    text-decoration: none;
+    color: #ffffff;
+   
+    font-size: 13px;
+}
