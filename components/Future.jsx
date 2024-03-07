@@ -4,6 +4,7 @@ import { TfiWorld } from "react-icons/tfi";
 import { ImFacebook2 } from "react-icons/im";
 import { FaInstagramSquare } from "react-icons/fa";
 import { FaSquareXTwitter } from "react-icons/fa6";
+import Link from 'next/link';
 
 
 const Future = () => {
@@ -13,14 +14,14 @@ const Future = () => {
         <div className={styles.Futurecon}>
        <h3>Inspiration for future getaways</h3>
          <div className={styles.future}>
-            <a href="#">Popular</a>
-            <a href="#">Arts & culture</a>
-            <a href="#">Outdoors</a>
-            <a href="#">Mountains</a>
-            <a href="#">Beach</a>
-            <a href="#">Unique stays</a>
-            <a href="#">Categories</a>
-            <a href="#">Things to do</a>
+            <Link href="#">Popular</Link>
+            <Link href="#">Arts & culture</Link>
+            <Link href="#">Outdoors</Link>
+            <Link href="#">Mountains</Link>
+            <Link href="#">Beach</Link>
+            <Link href="#">Unique stays</Link>
+            <Link href="#">Categories</Link>
+            <Link href="#">Things to do</Link>
             </div>
             <hr className={styles.hr} />
 
@@ -30,72 +31,72 @@ const Future = () => {
   <h4>Canmore</h4>
   <p>Apartment rentals</p>
 </div>
-<div class="styles.futu">
+<div className="styles.futu">
   <h4>Benalmádena</h4>
   <p>Beach house rentals</p>
 </div>
-<div class="styles.futu">
+<div className="styles.futu">
   <h4>Marbella</h4>
   <p>Villa rentals</p>
 </div>
-<div class="styles.futu">
+<div className="styles.futu">
   <h4>Mijas</h4>
   <p>Flat rentals</p>
 </div>
-<div class="styles.futu">
+<div className="styles.futu">
   <h4>Prescott</h4>
   <p>Cabin rentals</p>
 </div>
-<div class="styles.futu">
+<div className="styles.futu">
   <h4>Scottsdale</h4>
   <p>Holiday rentals</p>
 </div>
-<div class="styles.futu">
+<div className="styles.futu">
   <h4>Tucson</h4>
   <p>Flat rentals</p>
 </div>
-<div class="styles.futu">
+<div className="styles.futu">
   <h4>Jasper</h4>
   <p>Holiday rentals</p>
 </div>
-<div class="styles.futu">
+<div className="styles.futu">
   <h4>Mountain View</h4>
   <p>Holiday rentals</p>
 </div>
-<div class="styles.futu">
+<div className="styles.futu">
   <h4>Devonport</h4>
   <p>Holiday rentals</p>
 </div>
-<div class="styles.futu">
+<div className="styles.futu">
   <h4>Mallacoota</h4>
   <p>Beach house rentals</p>
 </div>
-<div class="styles.futu">
+<div className="styles.futu">
   <h4>Ibiza</h4>
   <p>Holiday rentals</p>
 </div>
-<div class="styles.futu">
+<div className="styles.futu">
   <h4>Anaheim</h4>
   <p>Family-friendly rentals</p>
 </div>
-<div class="styles.futu">
+<div className="styles.futu">
   <h4>Monterey</h4>
   <p>Cabin rentals</p>
 </div>
-<div class="styles.futu">
+<div className="styles.futu">
   <h4>Paso Robles</h4>
   <p>House rentals</p>
 </div>
-<div class="styles.futu">
+<div className="styles.futu">
   <h4>Santa Barbara</h4>
   <p>House rentals</p>
 </div>
-<div class="styles.futu">
+<div className="styles.futu">
   <h4>Sonoma</h4>
   <p>Cabin rentals</p>
 </div>
 
-<div class="styles.futu">
+<div className="styles.futu">
   <h4>Show more <select className={styles.sec} name="" id=""></select> </h4>
   
 </div>

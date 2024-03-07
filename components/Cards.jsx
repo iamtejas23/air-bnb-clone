@@ -13,6 +13,7 @@ import p9 from '../public/assets/9.webp';
 import p10 from '../public/assets/10.webp';
 import p11 from '../public/assets/11.webp';
 import p12 from '../public/assets/12.webp';
+import Link from 'next/link';
 
 
 const Cards = () => {
@@ -144,7 +145,7 @@ const Cards = () => {
     <div className={styles.moresection}>
         <h2>Continue exploring Countryside</h2>
         <div className={styles.show}>
-            <a href="/home">Show more</a>
+            <Link href="/home">Show more</Link>
         </div>
     </div>
     </div>
